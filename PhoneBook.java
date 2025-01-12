@@ -19,7 +19,6 @@ public class PhoneBook
 	{
 		Scanner reader = new Scanner(System.in);
 		System.out.print("% ");
-		reader.nextLine();
 		System.out.print("Enter name as first last: ");
 		name = reader.nextLine();
 		System.out.print("Enter city of residence: ");
